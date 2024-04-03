@@ -5,7 +5,7 @@ public class Main {
     
     public static void main(String[] args) {
         
-		Scanner meuScanner = new Scanner(System.in);
+	Scanner meuScanner = new Scanner(System.in);
         DecimalFormat df1 = new DecimalFormat("0.0000");
         
         double raio = meuScanner.nextDouble();
