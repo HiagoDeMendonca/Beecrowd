@@ -2,17 +2,19 @@ import java.util.Scanner;
 
 public class Main {
 	
-    public static void main(String[] args) {
+	static Scanner scan = new Scanner(System.in);
+	
+	public static void main(String[] args) {
 		
-		Scanner meuScanner = new Scanner(System.in);
-		
-		int numeroA = meuScanner.nextInt();
-		int numeroB = meuScanner.nextInt();
+		int numeroA = scan.nextInt();
+		int numeroB = scan.nextInt();
 		
 		int produto = numeroA * numeroB;
 		
 		System.out.println("PROD = " + produto);
 		
-    }
+		scan.close();
+		
+	}
 	
 }
