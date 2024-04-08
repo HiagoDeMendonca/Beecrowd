@@ -4,10 +4,9 @@ import java.text.DecimalFormat;
 public class Main {
 	
 	static DecimalFormat dfor = new DecimalFormat("0.0");
+	static Scanner scan = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		
-		Scanner scan = new Scanner(System.in);
 		
 		int numeroA = scan.nextInt();
 		int numeroB = scan.nextInt();
