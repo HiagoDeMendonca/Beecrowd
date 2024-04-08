@@ -11,11 +11,11 @@ public class Main {
 		float valorFinal = 0;
 		
 		for (int i = 0; i < 2; i++){
-    		
-    		String input = scan.nextLine();
-    		String[] pecas = input.split(" ");
-    		
-    		valorFinal += Integer.parseInt(pecas[1]) * Float.parseFloat(pecas[2]);
+			
+			String input = scan.nextLine();
+			String[] pecas = input.split(" ");
+			
+			valorFinal += Integer.parseInt(pecas[1]) * Float.parseFloat(pecas[2]);
 		}
 		
 		System.out.println("VALOR A PAGAR: R$ "+ dfor.format(valorFinal));
