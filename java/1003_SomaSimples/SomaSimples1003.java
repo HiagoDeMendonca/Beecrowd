@@ -4,10 +4,10 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		Scanner meuScanner = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
-		int input1 = meuScanner.nextInt();
-		int input2 = meuScanner.nextInt();
+		int input1 = scan.nextInt();
+		int input2 = scan.nextInt();
 		
 		System.out.println("SOMA = " + (input1 + input2));
 		
