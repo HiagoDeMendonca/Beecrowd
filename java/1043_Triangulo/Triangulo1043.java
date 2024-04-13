@@ -18,5 +18,8 @@ public class Main {
 		else {
 			System.out.println("Area = " + dfor.format((A + B) / 2 * C));
 		}
+		
+		scan.close();
+		
 	}
 }
