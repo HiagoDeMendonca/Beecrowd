@@ -31,5 +31,8 @@ public class Main {
 		{
 			System.out.println(arrayLista[i]);
 		}
+		
+		scan.close();
+		
 	}
 }
