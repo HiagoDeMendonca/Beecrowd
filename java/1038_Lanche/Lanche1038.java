@@ -14,6 +14,8 @@ public class Main {
 			int quantidade = scan.nextInt();
 			
 			System.out.println("Total: R$ " + dfor.format(arrayPreco[codigo - 1] * quantidade));
+
+		scan.close();
 			
 	}
 	
