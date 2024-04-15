@@ -24,6 +24,8 @@ public class Main {
 			System.out.println("Impossivel calcular");
 		}
 		
+		scan.close();
+		
 	}
 	
 }
