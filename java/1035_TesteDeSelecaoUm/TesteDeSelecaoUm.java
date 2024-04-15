@@ -20,6 +20,8 @@ public class Main {
 			System.out.println("Valores nao aceitos");
 		}
 		
+		scan.close();
+		
 	}
 	
 }
