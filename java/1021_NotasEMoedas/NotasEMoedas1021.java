@@ -35,5 +35,8 @@ public class Main {
 			centavos %= arrayMoedas[i];
 			
 		}
+		
+		scan.close()
+		
 	}
 }
