@@ -1,0 +1,40 @@
+import java.util.Scanner;
+import java.text.DecimalFormat;
+
+public class Main {
+	
+	static Scanner scan = new Scanner(System.in);
+	static DecimalFormat dfor = new DecimalFormat("0.00");
+	
+	public static void main(String[] args) {
+		
+		int novoLoop = 0;
+		
+		do {
+			
+			int contagem = 0;
+			float notaSoma = 0;
+			
+			while (contagem < 2) {
+				float nota = scan.nextFloat();
+				if (nota < 0 || nota > 10) {
+					System.out.println("nota invalida");
+				} else {
+					notaSoma += nota;
+					contagem++;
+				}
+			}
+			
+			System.out.println("media = " + dfor.format(notaSoma / 2));
+			
+			do {
+				System.out.println("novo calculo (1-sim 2-nao)");
+				novoLoop = scan.nextInt();
+			} while (novoLoop != 1 && novoLoop != 2);
+			
+		} while (novoLoop == 1);
+		
+		scan.close();
+		
+	}
+}
